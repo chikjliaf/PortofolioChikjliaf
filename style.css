@@ -1,0 +1,259 @@
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fffafc;
+            color: #333;
+        }
+
+        .navigasi {
+            background-color: #f8bbd0;
+        }
+
+        .navigasi a {
+            color: white !important;
+            font-weight: 500;
+        }
+
+        .navigasi a:hover {
+            color: #ffd6e7 !important;
+        }
+
+        .profil img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #f8bbd0;
+        }
+
+        .profil h2 {
+            color: #d81b60;
+        }
+
+        .keahlian-item {
+            background-color: #f8bbd0;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .keahlian-item i {
+            font-size: 40px;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .kontak i {
+            color: #d81b60;
+        }
+
+        .mode-gelap {
+            background-color: #333 !important;
+            color: #fff !important;
+        }
+
+        .mode-gelap .navigasi {
+            background-color: #555 !important;
+        }
+
+        .mode-gelap .keahlian-item {
+            background-color: #444 !important;
+        }
+
+        .toggle-icon {
+            font-size: 24px;
+            cursor: pointer;
+            color: #d81b60;
+        }
+
+          .feedback-container {
+            max-width: 200px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          }
+          
+          .feedback-container h1 {
+            text-align: center;
+            color: pink;
+            margin-bottom: 20px;
+          }
+          
+          .form-group {
+            margin-bottom: 15px;
+          }
+          
+          .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+          }
+          
+          .form-group input,
+          .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+          }
+          
+          .form-group input:focus,
+          .form-group textarea:focus {
+            outline: none;
+            border-color: pink;
+            box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+          }
+          
+          .btn-submit {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background: pink;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+          }
+          
+          .btn-submit:hover {
+            background: pink;
+          }
+          
+          @media (max-width: 768px) {
+            .feedback-container {
+              margin: 20px;
+              padding: 15px;
+            }
+          
+            .btn-submit {
+              font-size: 16px;
+            }
+            .submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-input {
+    display: grid;
+    width: 393px;
+}
+
+.input-name-email {
+    display: flex;
+    gap: 20px;
+}
+
+.input-name-email input {
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 53%;
+    background-color: #6394E3;
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px rgb(73, 73, 225);
+}
+
+.input-name-email input::placeholder {
+    color: #fff;
+}
+
+textarea {
+    resize: none;
+    height: 10rem;
+    width: 25rem;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #6394E3;
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px rgb(73, 73, 225);
+}
+
+.form-input button {
+    margin-top: 5px;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    background-color: pink;
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px rgb(73, 73, 225);
+}
+
+}
+.wm {
+  text-align: center;
+  color: pink
+}
+
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.mode-gelap {
+  background-color: #121212;
+  color: white;
+}
+
+.feedback-form-container {
+  background-color: white; /* Warna latar belakang untuk mode terang */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: auto;
+  max-width: 500px; /* Lebar maksimum kotak */
+}
+
+.mode-gelap .feedback-form-container {
+  background-color: #1e1e1e; /* Warna latar belakang untuk mode gelap */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.btn-submit {
+  background-color: pink;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #061627;
+}
