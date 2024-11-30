@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Chika Julia Fairuz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <!-- Navigasi -->
+    <nav class="navigasi navbar navbar-expand-lg navbar-dark py-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">CV Chika</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavigasi">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNavigasi">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#beranda">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#keahlian">Keahlian</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">contact</a></li>
+                </ul>
+                <div class="ms-3">
+                    <i id="toggleMode" class="bi bi-moon toggle-icon"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="beranda" class="profil text-center py-5">
+        <img src="https://i.ibb.co.com/ZxyP4pJ/IMG-20241117-WA0150.jpg" alt="Foto Chika">
+        <h2 class="my-3">Chika Julia Fairuz</h2>
+        <p>Halo! Nama saya Chika Julia Fairuz. Saya adalah seorang yang kreatif, berpengalaman dalam membuat logo/desain. Saya selalu bersemangat belajar hal-hal baru.</p>
+    </section>
+
+    <section id="keahlian" class="py-5">
+        <div class="container">
+            <h3 class="text-center mb-4">Keahlian</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="keahlian-item">
+                        <img src="coreldraw.webp" alt="coreldraw" width="20%" height="20%" style="border-radius: 10px;">
+                        <h4>Membuat logo</h4>
+                        <p>saya seorang data analyst yang menggunakan corel draw, ahli dalam membuat table.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="keahlian-item">
+                        <img src="figma.png" alt="figma" width="20%" height="20%" style="border-radius: 10px;">
+                        <h4>Membuat kartu pelajar</h4>
+                        <p>teliti dalam setiap desain, memastikan semua element tersusun rapih.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="keahlian-item">
+                        <img src="canva-logo.png" alt="canva" width="20%" height="20%" style="border-radius: 10px;">
+                        <h4>Membuat power point</h4>
+                        <p>dapat menyusun slide yang menarik, serta menyampaikan informasi dengan jelas dan percaya diri.</p>
+                        <form action=""></form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="feedback" class="py-5 text-center">
+        <h3>Feedback</h3>
+        <div class="feedback-form-container">
+            <form action="https://formspree.io/f/mjkvagbg" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Feedback</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your feedback here..." required></textarea>
+</div>
+                <button type="submit" class="btn-submit">Submit Feedback</button>
+            </form>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="chika.js"> </script>
+   
+   
+    <section id="contact" class="py-5 text-center">
+        <h3>Contact</h3>
+        <a href="https://wa.me/6281219186721" target="_blank" style="display: block; margin: 10px 0;">
+            <i class="bi bi-phone"></i> +62 812-1918-6721
+        </a>
+        <a href="https://www.instagram.com/chikjliaf_?igsh=MWdkaW9xOW90eWJwOQ==" target="_blank" style="display: block; margin: 10px 0;">
+            <i class="bi bi-instagram"></i> @chikjliaf
+        </a>
+    </section>
+    <footer id="wm" class="wm">
+        <P>©2024 Portofolio Dibuat Oleh Chika</P>
+    </footer>
+
+</body>
+</html>
